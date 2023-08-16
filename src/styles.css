@@ -1,0 +1,232 @@
+:root {
+   --heading-font-family: 'Arapay', cursive;
+   --logo-font-family: 'Italianno', cursive, sans-serif;
+   /* --phrase-font-family: 'Dancing Script', cursive; */
+}
+
+/* global */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   background: #bcc4af;
+   font-family: 'Arapay';
+   font-family: var(--heading-font-family);
+   max-width: 100%;
+   overflow-x: hidden;
+   /* remove scroll on bottom  */
+}
+
+/*  nav*/
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   font-size: large;
+}
+
+
+.logo {
+   padding-top: 10px;
+   font-size: 20px;
+   font-weight: 600;
+   font-family: var(--logo-font-family);
+   margin-left: 50px;
+   /* color: rgb(73,   94, 97); */
+   color: rgb(28, 34, 33);
+}
+
+.ul-item {
+   justify-content: end;
+}
+
+/* nav справа */
+
+.navbar-nav .nav-item {
+   font-weight: bold;
+   font-size: larger;
+}
+
+/* toggler */
+.navbar-light .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")' stroke-width=' 2' stroke-linecap=' round' stroke-miterlimit=' 10' d=' M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E);
+
+}
+
+/* меняем цвет текста в navbar */
+.nav-link {
+   color: rgb(19, 19, 29) !important;
+}
+
+/* navbar-scrolled   объявляем класс, испол в js*/
+.navbar-scrolled {
+   background-color: rgb(172, 181, 178);
+   opacity: 0.7;
+   transition: all 1s;
+   font-weight: bold;
+   color: rgb(52, 63, 60);
+}
+
+.navtext-scrolled {
+   color: rgb(20, 20, 20) !important;
+}
+
+/*  change nav-text-color  ???*/
+nav.navtext-scrolled,
+nav.navtext-scrolled a,
+nav.navtext-scrolled .active {
+   -webkit-text-fill-color: rgb(45, 58, 59);
+
+   color: rgb(24, 30, 31);
+   font-weight: bold;
+   transition: all 1s;
+}
+
+.navbar {
+   transition: all 0.5s;
+   /* z-index: 999; */
+}
+
+/* header*/
+header {
+   width: 100vw;
+   height: 100vh;
+   background-image: url('/img/apples.jpg');
+   opacity: 0.7;
+   background-position: top;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+
+}
+
+.header-content {
+   /* margin-top: 300px; */
+   position: absolute;
+   top: 35%;
+   left: 25%;
+   /* color: rgb(60, 78, 81); */
+   color: rgb(32, 39, 37);
+
+}
+
+.header-content h2 {
+   font-size: 4vmin;
+}
+
+.header-content h1 {
+   font-size: 9vmin;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   font-family: 'Italianno', cursive;
+}
+
+/* ? */
+.btn-first {
+   padding: 10px 35px;
+   background: rgba(60, 78, 81);
+   /* background: rgba(157, 125, 138, 0.7); */
+   border-radius: 8px;
+   color: whitesmoke;
+}
+
+.line {
+   width: 150px;
+   height: 3px;
+   background: rgb(60, 78, 81);
+   margin: 10px auto;
+}
+
+/* button up */
+#btnScrollToTop {
+   /* display: none; */
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgba(60, 78, 81, 0.5);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   color: white;
+   outline: none;
+   cursor: pointer;
+   z-index: 99;
+   /*
+    border: none;
+    padding: 15px; */
+}
+
+#btnScrollToTop:active {
+   background: #ba897a;
+}
+
+/* Events */
+.box-events {
+
+   background-color: rgba(198, 197, 197, 0.7);
+   margin: 0;
+   padding-top: 30px;
+}
+
+
+.title-events {
+   text-align: center;
+   font-size: 4vmin;
+   color: rgb(60, 78, 81);
+   padding-bottom: 15px;
+}
+
+.container-management {
+   width: 100%;
+   background-color: #bcc4af;
+}
+
+.management {
+   /* background-color: rgb(99, 113, 32); */
+   margin: auto;
+}
+
+.body-management {
+   background-color: #bcc4af;
+}
+
+.advert {
+   height: 100vh;
+   width: 100%;
+   position: relative;
+   background-color: #bcc4af;
+
+}
+
+div.card.advert-bg {
+   /* background-color: #b6bf8e; */
+   /* background-color: rgb(244, 239, 194); */
+   opacity: 0.8;
+}
+
+.advert-body {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+
+
+   transform: translate(-50%, -50%);
+   line-height: 2.5px;
+}
+
+.card-title {
+   font-size: xx-large;
+}
+
+h1.card-title {
+   font-size: 8vh;
+}
