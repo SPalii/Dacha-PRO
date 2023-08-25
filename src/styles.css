@@ -34,8 +34,15 @@ a {
 
 a:hover {
    font-size: large;
-}
+ }
+ a::after{
+   transition: all, .3s;
+ }
 
+.navbar {
+   transition: all 0.5s;
+   z-index: 1099;
+}
 .logo {
    padding-top: 10px;
    font-size: 20px;
@@ -56,6 +63,7 @@ a:hover {
    font-weight: bold;
    font-size: larger;
 }
+
 
 /* toggler */
 .navbar-light .navbar-toggler-icon {
@@ -91,11 +99,6 @@ nav.navtext-scrolled .active {
    transition: all 1s;
 }
 
-.navbar {
-   transition: all 0.5s;
-   /* z-index: 999; */
-
-}
 
 /* header*/
 header {
@@ -198,6 +201,7 @@ header {
 .container-management {
    width: 100%;
    /* background-color: #bcc4af; */
+
 }
 
 .management {
