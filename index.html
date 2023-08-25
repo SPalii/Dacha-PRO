@@ -4,22 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ПРОМБУДІВЕЦЬ</title>
-    <!-- css -->
-    <link rel="stylesheet" href="src/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <!-- font -->
+
+<!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,26 +13,37 @@
       rel="stylesheet"
     />
 
+   <link rel="stylesheet" href="src/styles.css" />
+    <!-- bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
     <!-- Bootstrap js -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 
 
-    <script
+   <!-- fontaweasome -->
+      <script
       src="https://kit.fontawesome.com/3022c8af78.js"
       crossorigin="anonymous"
     ></script>
-    <!-- <script src="script.js"></script> -->
+
+    <title>ПРОМБУДІВЕЦЬ</title>
+    <!-- css -->
+
+
   </head>
 
   <body>
 <header>
 <!-- <img src="img/nepal-mountain.jpg" /> -->
    <!-- nav bar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top  navbar-scroll" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top  navbar-scroll p-2" id="navbar">
    <span class="logo">Промбудівець</span>
- <button class="navbar-toggler toggler-color" type="button" data-toggle="collapse" data-target="#navbarNav"
+ <button class="navbar-toggler toggler-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"> </span>
    </button>
@@ -54,7 +51,7 @@
 
       <ul class="navbar-nav">
          <li class="nav-item li-item  pr-4 active">
-            <a class="nav-link " href="#">Головна <span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="#">Головна </a>
          </li>
          <li class="nav-item li-item pr-4">
             <a class="nav-link " href="#management-group">Правління</a>
@@ -65,7 +62,7 @@
             <a class="nav-link " href="#documents">Документи</a>
          </li>
          <li class="nav-item li-item pr-4">
-            <a class="nav-link " href="#contact">Контакти</a>
+            <a class="nav-link " href="#electricity">Електроенергія</a>
          </li>
       </ul>
    </div>
@@ -86,153 +83,189 @@
 <button id="btnScrollToTop" title="Go to top"> Top
 </button>
 
-
-
 <!-- Events row правління management  ряд 1-->
-<div class="box-events">
-<section class="section-events ">
-   <div class="title-events">
-      <h1 id="management-group">Правління</h1>
-      <div class="line"></div>
-   </div>
-</section>
+<div class="section-mamagment">
 
-
-<div class="container container-management text-center mb-0 mt-0">
-<div class="row ">
-
-   <div class="card-group management">
-
-      <div class="card p-3 m-md-4 border ">
-      <div class="card-body body-management">
-         <h5 class="card-title">Голова Правління</h5>
-      <br>
-            <p class="card-text">Палій Світлана Іванівна </p>
-            <p>  +38 (050)33-23-500</p>
-      </div>
-      </div>
-
-      <div class="card p-3 m-md-4 border bg-light">
-      <div class="card-body body-management">
-         <h5 class="card-title">Члени правління</h5>
-         <p class="card-text">
-            <ul class="text-left">
-               <li> Жук Марина Федорівна</li>
-               <li>Котельницька Лариса Григорівна </li>
-               <li>Кузнєцова Ганна Станіславівна </li>
-               <li>Леус Сергій Миколайович </li>
-               <li>Ущапівська Катерина Іванівна</li>
-            </ul>
-         </p>
-
-      </div>
-      </div>
-
-      <div class="card p-3 m-md-4 border bg-light">
-      <div class="card-body body-management">
-         <h5 class="card-title">Склад ревізійної комісії</h5>
-         <p class="card-text">
-            <ul class="text-left">
-               <li>Тихий Василь Іванович </li>
-               <li>Бажан Олександр Пантелеймонович</li>
-             </ul>
-            </p>
-      </div>
-      </div>
+   <div class="box-events ">
+      <section class="section-events">
+         <div class="title-events ">
+            <h1 id="management-group">Правління</h1>
+            <div class="line"></div>
+         </div>
+      </section>
    </div>
 
-</div>
-</div>
+   <div class="container container-management text-center mt-2">
 
+      <div class="row row-flex">
 
-<!-- advert  Оголошення -->
+         <div class="col-lg">
+               <div class="card-group management">
+                  <div class="card p-3 m-md-4 border bg-body-secondary ">
+                     <div class="card-body body-management">
+                        <h5 class="card-title">Голова Правління</h5>  <br>
+                        <p class="card-text">Палій Світлана Іванівна </p>
+                        <p>  +38 (050)33-23-500</p>
+                     </div>
+                  </div>
+               </div>
+         </div>
 
+         <div class="col-lg">
+            <div class="card-group management">
+               <div class="card p-3 m-md-4 border bg-body-secondary">
+                  <div class="card-body body-management">
+                     <h5 class="card-title">Члени правління</h5>
+                     <p class="card-text">
+                     <ul class="text-management">
+                        <li> Жук Марина Федорівна</li>
+                        <li>Леус Сергій Миколайович </li>
+                        <li>Кузнєцова Ганна Станіславівна </li>
+                        <li>Ущапівська Катерина Іванівна</li>
+                        <li>Котельницька Лариса Григорівна </li>
+                     </ul>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
 
-
-
-<div class="container container-events text-center mb-0 mt-0" id="advert">
-<div class="row ">
-
-   <div class="card-group advert">
-   <div class="card p-3 m-md-4 border advert-bg">
-
-      <div class="card-body advert-body">
-         <h1 class="card-title pb-5">Оголошення</h1>
-          <h3 class="card-title">20/08/23</h3>
-
-         <p class="card-text">
-            <h4> Оплата електроенергії</h4> </p>
-
-
-         <p class="card-text">      </p>
-         <h3 class="card-title">Приймає внески </h3>
-         <h3 class="card-title">Кузнецова Г.С. </h3>
-
-         <p class="card-text">
-         </p>
-      </div>
-   </div>
+         <div class="col-lg">
+            <div class="card-group management">
+               <div class="card p-3 m-md-4 border bg-body-secondary">
+                  <div class="card-body body-management">
+                     <h5 class="card-title">Склад ревізійної комісії</h5>
+                     <p class="card-text">
+                        <ul class="text-management">
+                        <li>Тихий Василь Іванович </li>
+                        <li>Бажан Олександр Пантелеймонович</li>
+                        </ul>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
 
    </div>
 </div>
+
+</div>
+<!-- advert  Оголошення 1-->
+<div class="wrapper" id="advert">
+   <section class="fullscreen" >
+      <div class="fullscreen-body">
+         <h1 class="fullscreen-title" > Оголошення </h1>
+         <div class="fullscreen-text">
+           <h2> Оплата електроенергії</h2>
+            <p> 20/08/23</p>
+            <p> Приймає внески </p>
+            <p>Анна Станіславівна</p>
+         </div>
+      </div>
+   </section>
 </div>
 
 
 <!-- row  Документи-->
 
-<div class="box-events">
-<section class="section-events ">
-   <div class="title-events">
-      <h1 id="documents">Документи</h1>
-      <div class="line"></div>
-   </div>
-</section>
+<div class="section-documents">
 
-<div class="container container-events text-center mb-0 mt-0">
+<div class="box-events" id="documents">
+   <section class="section-events ">
+      <div class="title-events pt-3">
+         <h1 >Документи</h1>
+         <div class="line"></div>
+      </div>
+   </section>
+
+   <!-- !!!!!! -->
+   <div class="container container-events text-center mb-0 mt-0">
+
+   <div class="row ">
+
+      <div class="card-group">
+         <div class="card p-3 m-md-4 border bg-doc">
+            <div class="card-body">
+            <h5 class="card-title">Статут</h5>
+            <p class="card-text">ГРОМАДСЬКОЇ ОРГАНІЗАЦІЇ САДІВНИЦЬКЕ ТОВАРИСТВО "ПРОМБУДІВЕЦЬ-1".</p>
+            </div>
+      </div>
+
+      <div class="card p-3 m-md-4 border bg-doc">
+         <div class="card-body">
+            <h5 class="card-title">Протоколи</h5>
+            <p class="card-text">Загальних зборів ГО "ПРОМБУДІВЕЦЬ-1"</p>
+         </div>
+      </div>
+
+      <div class="card p-3 m-md-4 border bg-doc">
+         <div class="card-body">
+            <h5 class="card-title">Протоколи</h5>
+            <p class="card-text">правління ГО "ПРОМБУДІВЕЦЬ-1"</p>
+         </div>
+      </div>
+
+   </div>
+
+   <!-- ряд -->
 <div class="row ">
 
-   <div class="card-group">
-   <div class="card p-3 m-md-4 border bg-doc">
-      <div class="card-body">
-         <h5 class="card-title">Статут</h5>
-         <p class="card-text">ГРОМАДСЬКОЇ ОРГАНІЗАЦІЇ "САДІВНИЦЬКЕ ТОВАРИСТВО"ПРОМБУДІВЕЦЬ-1"".</p>
-         <p class="card-text"><small class="text-body-secondary"></small></p>
+      <div class="card-group">
+         <div class="card p-3 m-md-4 border bg-doc">
+            <div class="card-body">
+            <h5 class="card-title">Статут</h5>
+            <p class="card-text">ГРОМАДСЬКОЇ ОРГАНІЗАЦІЇ САДІВНИЦЬКЕ ТОВАРИСТВО "ПРОМБУДІВЕЦЬ-1".</p>
+            </div>
       </div>
-   </div>
 
-   <div class="card p-3 m-md-4 border bg-doc">
-      <div class="card-body">
-         <h5 class="card-title">Протоколи</h5>
-         <p class="card-text">Загальних зборів ГО "ПРОМБУДІВЕЦЬ-1"
-            </p>
-
-         <p class="card-text"><small class="text-body-secondary"></small></p>
+      <div class="card p-3 m-md-4 border bg-doc">
+         <div class="card-body">
+            <h5 class="card-title">Протоколи</h5>
+            <p class="card-text">Загальних зборів ГО "ПРОМБУДІВЕЦЬ-1"</p>
+         </div>
       </div>
-   </div>
+
+      <div class="card p-3 m-md-4 border bg-doc">
+         <div class="card-body">
+            <h5 class="card-title">Протоколи</h5>
+            <p class="card-text">правління ГО "ПРОМБУДІВЕЦЬ-1"</p>
+         </div>
+      </div>
+
    </div>
 
-</div>
-</div>
 
+   </div>
 
 <!-- next row  -->
+
+<div class="box-events" id="electricity">
+
+   <section class="section-events ">
+      <div class="title-events pt-3">
+         <h1>Електроенергія</h1>
+         <div class="line"></div>
+      </div>
+   </section>
+</div>
+
 <div class="container container-events text-center mb-0 mt-0">
 <div class="row ">
 
    <div class="card-group">
    <div class="card p-3 m-md-4 border bg-doc">
       <div class="card-body">
-         <h5 class="card-title">Протоколи</h5>
-         <p class="card-text">правління ГО "ПРОМБУДІВЕЦЬ-1".</p>
+         <h5 class="card-title">Показники електроенергії</h5>
+         <p class="card-text">нарахування та оплата</p>
          <p class="card-text"><small class="text-body-secondary"></small></p>
       </div>
    </div>
 
+
    <div class="card p-3 m-md-4 border bg-doc">
       <div class="card-body">
-         <h5 class="card-title">?</h5>
-         <p class="card-text">Доли́на нарци́сів — заповідний масив, що розташований в урочищі Кіреші, за 4 км на схід від міста Хуст Закарпатської
-         області.
+         <h5 class="card-title">Внески</h5>
+         <p class="card-text">членів ГО "ПРОМБУДІВЕЦЬ-1"
             </p>
 
          <p class="card-text"><small class="text-body-secondary"></small></p>
@@ -250,8 +283,7 @@
    <div class="card p-3 m-md-4 border bg-doc">
       <div class="card-body">
          <h5 class="card-title">?</h5>
-         <p class="card-text">Говерла розташована на заході України, на межі між Івано-Франківської та Закарпатської областей. Її висота становить
-         2061 метр над рівнем моря, що робить її найвищою точкою України.</p>
+         <p class="card-text">Текст</p>
          <p class="card-text"><small class="text-body-secondary"></small></p>
       </div>
    </div>
@@ -259,9 +291,7 @@
    <div class="card p-3 m-md-4 border bg-doc">
       <div class="card-body">
          <h5 class="card-title">?</h5>
-         <p class="card-text">Доли́на нарци́сів — заповідний масив, що розташований в урочищі Кіреші, за 4 км на схід від міста Хуст Закарпатської
-         області.
-            </p>
+         <p class="card-text">Текст </p>
 
          <p class="card-text"><small class="text-body-secondary"></small></p>
       </div>
@@ -269,6 +299,10 @@
    </div>
 
 </div>
+</div>
+
+
+<!-- section-documents end  -->
 </div>
 
 

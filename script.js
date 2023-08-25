@@ -12,28 +12,30 @@ let btnScrollToTop = document.querySelector("#btnScrollToTop");
 // change bg nav
 
 function changeBg(){
-  var navbar = document.getElementById("navbar");
+  var navbar = document.getElementById('navbar')
   var scrollValue = window.scrollY;
 
-if(scrollValue > 350){
-  navbar.classList.add ("navbar-scrolled");
+if(scrollValue > 290){
+  navbar.classList.add ('navbar-scrolled');
 }else{
-  navbar.classList.remove("navbar-scrolled");
+  navbar.classList.remove('navbar-scrolled');
 }}
-window.addEventListener("scroll", changeBg);
+window.addEventListener('scroll', changeBg);
 
 
 // chahge nav text color --???
 
 function chahgeNavText(){
-    var navbar = document.getElementById("navbar");
+    var navbar = document.getElementById('navbar');
     var scrollValue = window.scrollY;
     // console.log(scrollValue);
 
   if (scrollValue >= innerHeight){
-     navbar.classList.add("navtext-scrolled");
+     navbar.classList.add('navtext-scrolled');
   }else{
-  navbar.classList.remove("navtext-scrolled");
+  navbar.classList.remove('navtext-scrolled');
 }}
 document.addEventListener('scroll', chahgeNavText);
+
+
 
