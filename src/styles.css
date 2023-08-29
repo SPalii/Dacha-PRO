@@ -296,6 +296,13 @@ div.card{
 color: #3b5148ab;
 }
 
+.card-title a:hover {
+   color: rgb(130, 103, 103);
+}
+
+.card-title a::after {
+   transition: all, .3s;
+}
 
 /* footer  */
 footer{
