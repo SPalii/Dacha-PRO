@@ -241,14 +241,15 @@ padding-left: 0;
 
 .box-advert {
    height: 100vh;
-      width: 100%;
-   display: flex;
-   padding: 20px 0;
+   width: 100%;
+
    background-image: url('/img/apple-trees.jpg');
    opacity: 0.8;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom;
+   display: flex;
+      padding: 20px 0;
    }
 
 .fullscreen-body {
@@ -273,28 +274,15 @@ padding-left: 0;
    letter-spacing: 2px;
 }
 
-.fullscreen-title {
-   font-size: 50px;
-   font-weight: 500;
-   margin: 0 0 25px 0;
-   letter-spacing: 2px;
-}
-
 .fullscreen-text {
    font-size: 25px;
    font-weight: 500;
    margin: 0 0 20px 0;
 }
 
-.bg-img{
-background-image: url('/img/apple-trees.jpg');
-opacity: 0.9;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: bottom;
-min-height: 100vh;
-z-index: -2999;
-}
+
+
+
 /* документи  статут протоколи*/
 
 
