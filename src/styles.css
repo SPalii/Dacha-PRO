@@ -210,10 +210,6 @@ margin: 0;
    padding: 20px 20px 10px;
 }
 
-.body-management {
-   background-color: rgba(198, 197, 197, 0.7);
-   /* background-color: #bcc4af; */
-}
 .text-management{
 list-style: none;
 padding-left: 0;
@@ -228,8 +224,6 @@ padding-left: 0;
 /* оголошення */
 .holder-advert{
    background: rgb(164, 171, 119) url('/img/vegetables.png');
-   /* background: rgb(157, 186, 102) url('/img/vegetables.png'); */
-
    background-size: cover;
    background-position: center;
    }
@@ -306,7 +300,14 @@ color: #3b5148ab;
    justify-content: center;
    margin: 5px 0;
 }
+.bg-electricity{
+   background-color: rgb(189, 178, 178);
+}
 
+      /* payment  */
+.bg-payment{
+   background-color: rgb(217, 217, 217);
+}
 
 /* footer  */
 footer{
