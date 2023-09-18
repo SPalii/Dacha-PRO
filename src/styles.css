@@ -93,7 +93,7 @@ a:hover {
 nav.navtext-scrolled,
 nav.navtext-scrolled a,
 nav.navtext-scrolled .active {
-   -webkit-text-fill-color: rgb(45, 58, 59);
+   -webkit-text-fill-color: rgb(15, 19, 16);
 
    color: rgb(24, 30, 31);
    font-weight: bold;
@@ -116,11 +116,9 @@ header {
 }
 
 .header-content {
-   /* margin-top: 300px; */
    position: absolute;
    top: 35%;
    left: 25%;
-   /* color: rgb(60, 78, 81); */
    color: rgb(32, 39, 37);
 }
 
@@ -229,20 +227,17 @@ padding-left: 0;
 
 /* оголошення */
 .holder-advert{
-   /* background-color: #a0a796; */
-   background: rgb(157, 186, 102) url('/img/vegetables.png' );
+   background: rgb(164, 171, 119) url('/img/vegetables.png');
+   /* background: rgb(157, 186, 102) url('/img/vegetables.png'); */
+
    background-size: cover;
    background-position: center;
-
-
-}
+   }
 
 .box-advert {
    height: 100vh;
    width: 100%;
-   /* background-image: url('/img/apple-trees.jpg'); */
-   /* background-image: url('/img/apples-001.png'); */
-   opacity: 0.8;
+      opacity: 0.8;
    /* background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom; */
