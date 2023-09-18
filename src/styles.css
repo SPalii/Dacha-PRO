@@ -109,7 +109,7 @@ header {
    opacity: 0.7;
    background-position: top;
    background-size: cover;
-   display: flex;
+   /* display: flex; */
    align-items: center;
    justify-content: center;
    position: relative;
@@ -168,27 +168,48 @@ header {
 }
 
 
-/* Events правління management*/
-.section-mamagment {
-   background-color:#ced1ca;
-}
-.box-events {
-/* min-height: 100vh; */
+ /* row правління management row 1 */
+ .section-mamagment {
+    background-color: #ced1ca;
+ }
+ .row-management{
    display: flex;
-   flex-direction: column;
-   /* background-color: rgba(198, 197, 197, 0.7); */
-   margin: 0;
-   padding-top: 30px;
+ }
+.box-management{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.col-management{
+flex: 1;
+padding: 10px;
+background-color: rgb(217, 217, 217);
+margin:  auto;
+border: 8px solid whitesmoke;
+
 }
 
-.title-events {
+/* 0000 */
+/* Events правління management*/
+
+
+/*
+.box-info {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   padding-top: 30px;
+} */
+
+.title-info {
    text-align: center;
    font-size: 4vmin;
    color: rgb(60, 78, 81);
    padding-bottom: 15px;
 }
 
-.container-management {
+.container-management,
+.container-document {
    width: 100%;
    /* background-color: #bcc4af; */
 margin: 0;
@@ -207,6 +228,7 @@ margin: 0;
 }
 .text-management{
 list-style: none;
+padding-left: 0;
 }
 
 .row-management{
@@ -216,20 +238,17 @@ list-style: none;
 }
 
 /* оголошення */
-.wrapper {
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-}
-.advert {
+
+.advertр {
    height: 100vh;
    width: 100%;
    /* position: relative; */
    display: flex;
 }
-.fullscreen {
+
+
+.box-advert {
    min-height: 100vh;
-   background-color: burlywood;
    display: flex;
    padding: 20px 0;
    background-image: url('/img/apple-trees.jpg');
@@ -237,6 +256,10 @@ list-style: none;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom;
+display: flex;
+
+   height: 100vh;
+      width: 100%;
 }
 
 .fullscreen-body {
@@ -274,22 +297,24 @@ list-style: none;
    margin: 0 0 20px 0;
 }
 
-
+.bg-img{
+background-image: url('/img/apple-trees.jpg');
+opacity: 0.9;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+min-height: 100vh;
+z-index: -2999;
+}
 /* документи  статут протоколи*/
 
-.section-documents {
-   background-color: #ced1ca;
-}
+
 .card-title {
-   font-size: xx-large;
+   font-size: x-large;
 }
 
 h1.card-title {
    font-size:48px;
-}
-
-div.card{
-      background-color:#bcc4af;
 }
 
 .card-title a{
@@ -303,6 +328,31 @@ color: #3b5148ab;
 .card-title a::after {
    transition: all, .3s;
 }
+
+/* electricity */
+.section-electricity {
+   background-color: #ced1ca;
+}
+
+.row-doc2{
+   background-color: #b9aca8;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: 5px 0;
+}
+
+
+/* test  */
+.bg-advert{
+   background-image: url('/img/apple-trees.jpg');
+      opacity: 0.9;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      min-height: 100vh;
+}
+
 
 /* footer  */
 footer{
@@ -325,10 +375,11 @@ text-align: center;
 
 @media (max-width: 780px) {
    .fullscreen-title {
-      font-size:28px;
+      font-size: 4vh;
    letter-spacing: 0px;
    }
-      .fullscreen-text{
-         font-size: 20px;
+      .fullscreen-text,
+            .fullscreen-text h2{
+         font-size: 3vh;
       }
 }
